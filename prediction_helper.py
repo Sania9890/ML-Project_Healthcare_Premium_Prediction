@@ -1,4 +1,3 @@
-# codebasics ML course: codebasics.io, all rights reserverd
 import pandas as pd
 import os
 import joblib
@@ -123,3 +122,4 @@ def predict(input_dict):
         prediction = model_rest.predict(input_df)
 
     return int(prediction[0])
+
